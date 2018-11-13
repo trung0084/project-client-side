@@ -18,6 +18,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 .hvr-underline-from-center::before{
   background:black!important;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
 a.nav-link {
   text-align: center;
 }
