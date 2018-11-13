@@ -2,6 +2,7 @@
 .logo img{
     height: auto;
     width:80%;
+    margin:auto;
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     background-color:#dbc1ac!important;
@@ -37,7 +38,7 @@ hr.line {
     top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: white;
+    background: #FDF9F9;
     }
 /*content*/  
 .wrap-image .image {
@@ -78,7 +79,7 @@ hr.line {
   /*footer*/
   #lab_social_icon_footer {
     padding: 45px 0;
-    background-color: #ece0d1;
+    background-color: #dbc1ac;
   }
   
   #lab_social_icon_footer a {
@@ -124,5 +125,115 @@ hr.line {
     height: auto;
 }
 .rowfooter{
-    background-color: #ece0d1
+    background-color: #dbc1ac;
+}
+/*menupage*/
+a.flex-sm-fill.text-sm-center.nav-link.hvr-float-shadow {
+  color: black;
+  font-family: League Gothic;
+  font-size: 20px;
+}
+  hr.line.expreso:after {
+    content: "ESPRESSO";
+  }
+  hr.line.iceblended:after {
+    content: "ICE BLENDED";
+  }
+  hr.line.tea:after {
+    content: "TEA";
+  }
+  hr.line.mocktail:after {
+    content: "MOCKTAIL";
+  }
+  hr.line.chocolate:after {
+    content: "CHOCOLATE";
+  }
+  hr.line.smoothies:after {
+    content: "SMOOTHIES";
+  }
+  hr.line.expreso {
+    margin-top: 25px;
+}
+nav.nav.nav-pills.flex-column.flex-sm-row.menudrink {
+  background-color: #967259;
+}
+.hvr-float-shadow:before {
+  top:70%!important;
+}
+.drinkitem{
+  color: #38220F!important;
+  margin-top: 40px;
+}
+.teaitem{
+  color: #38220F!important;
+  margin-top: -35px;
+  font-family: League Gothic;
+}
+body{
+  background-color: #FDF9F9;
+  font-family: League Gothic;
+}
+/*newspage*/
+hr.line.newsandevents:after{
+  content: "NEWS & EVENTS";
+}
+button.btn.btn-sm.btn-outline-secondary {
+  width: 120px;
+}
+hr.line.newsandevents {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*contactpage*/
+.google-maps {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+hr.line.contact:after {
+  content: "CONTACT";
+}
+button.btn.btn-primary {
+  margin-left: 45%;
+}
+i.fas.fa-map-marked-alt.fa-w-14.fa-5x {
+  margin-left: 45%;
+  margin-top: 10px;
+  color:#333;
+}
+i.fa.fa-phone-square.fa-w-14.fa-5x {
+  margin-left: 45%;
+  margin-top: 10px;
+  color:#333;
+}
+.contactinfo p{
+  margin-left: 35%;
+  font-family: League Gothic;
+  font-size: 120%;
+}
+.contactinfo .iconcontact:hover{
+  color:#967259!important;
+}
+/*about us*/
+hr.line.aboutus:after {
+  content: "ABOUT US";
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
