@@ -242,3 +242,7 @@ hr.line.aboutus:after {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+img.featurette-image.img-fluid.mx-auto {
+    height: 300px;
+    width: 300px;
+}
