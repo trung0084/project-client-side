@@ -18,11 +18,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 .hvr-underline-from-center::before{
   background:black!important;
 }
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
-}
 a.nav-link {
   text-align: center;
 }
@@ -189,6 +184,11 @@ hr.line.newsandevents {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+p.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 /*contactpage*/
 .google-maps {
   position: relative;
@@ -242,4 +242,3 @@ hr.line.aboutus:after {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
